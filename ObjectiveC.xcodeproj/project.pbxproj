@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF15B6C726966467005E714D /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6C626966467005E714D /* AdditionQuestion.m */; };
+		EF15B6CA269774C2005E714D /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6C9269774C2005E714D /* InputHandler.m */; };
+		EF15B6CD26977677005E714D /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6CC26977677005E714D /* ScoreKeeper.m */; };
+		EF15B6D1269785D6005E714D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6D0269785D6005E714D /* main.m */; };
+		EF4CD1B42697871E00F1D26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1B32697871E00F1D26D /* main.m */; };
+		EF4CD1B72697877600F1D26D /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1B62697877600F1D26D /* Question.m */; };
+		EF4CD1BA2697878100F1D26D /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1B92697878100F1D26D /* InputHandler.m */; };
+		EF4CD1BD2697878700F1D26D /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1BC2697878700F1D26D /* ScoreKeeper.m */; };
+		EF4CD1C0269798D400F1D26D /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1BF269798D400F1D26D /* QuestionManager.m */; };
+		EF4CD1C32697AFFF00F1D26D /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1C22697AFFF00F1D26D /* AdditionQuestion.m */; };
+		EF4CD1C62697BD6C00F1D26D /* SubtractionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1C52697BD6C00F1D26D /* SubtractionQuestion.m */; };
+		EF4CD1C92697BD7500F1D26D /* MultiplicationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1C82697BD7500F1D26D /* MultiplicationQuestion.m */; };
+		EF4CD1CC2697BD7D00F1D26D /* DivisionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1CB2697BD7D00F1D26D /* DivisionQuestion.m */; };
+		EF4CD1CF2697BE7900F1D26D /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1CE2697BE7900F1D26D /* QuestionFactory.m */; };
 		EF81816826936A420083C951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81816726936A420083C951 /* main.m */; };
 		EF81817526936A630083C951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81817426936A630083C951 /* main.m */; };
 		EF81817B269379CC0083C951 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81817A269379CC0083C951 /* Person.m */; };
@@ -15,6 +29,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EF15B6B1269660B7005E714D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF4CD1AA269786CC00F1D26D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EF81816226936A420083C951 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,6 +77,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF15B6B3269660B7005E714D /* Lab3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab3; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF15B6C526966467005E714D /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		EF15B6C626966467005E714D /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		EF15B6C8269774C2005E714D /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		EF15B6C9269774C2005E714D /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		EF15B6CB26977677005E714D /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		EF15B6CC26977677005E714D /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
+		EF15B6D0269785D6005E714D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4CD1AC269786CC00F1D26D /* Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab4; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4CD1B32697871E00F1D26D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4CD1B52697876100F1D26D /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		EF4CD1B62697877600F1D26D /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		EF4CD1B82697877B00F1D26D /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		EF4CD1B92697878100F1D26D /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		EF4CD1BB2697878700F1D26D /* ScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		EF4CD1BC2697878700F1D26D /* ScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
+		EF4CD1BE269798D400F1D26D /* QuestionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		EF4CD1BF269798D400F1D26D /* QuestionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
+		EF4CD1C12697AFFF00F1D26D /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		EF4CD1C22697AFFF00F1D26D /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		EF4CD1C42697BD6C00F1D26D /* SubtractionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubtractionQuestion.h; sourceTree = "<group>"; };
+		EF4CD1C52697BD6C00F1D26D /* SubtractionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtractionQuestion.m; sourceTree = "<group>"; };
+		EF4CD1C72697BD7500F1D26D /* MultiplicationQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationQuestion.h; sourceTree = "<group>"; };
+		EF4CD1C82697BD7500F1D26D /* MultiplicationQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationQuestion.m; sourceTree = "<group>"; };
+		EF4CD1CA2697BD7D00F1D26D /* DivisionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionQuestion.h; sourceTree = "<group>"; };
+		EF4CD1CB2697BD7D00F1D26D /* DivisionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionQuestion.m; sourceTree = "<group>"; };
+		EF4CD1CD2697BE7900F1D26D /* QuestionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
+		EF4CD1CE2697BE7900F1D26D /* QuestionFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
 		EF81816426936A420083C951 /* ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF81816726936A420083C951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF81817226936A630083C951 /* Lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +118,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF15B6B0269660B7005E714D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4CD1A9269786CC00F1D26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF81816126936A420083C951 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,12 +156,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF15B6B4269660B7005E714D /* Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				EF15B6D0269785D6005E714D /* main.m */,
+				EF15B6C8269774C2005E714D /* InputHandler.h */,
+				EF15B6C9269774C2005E714D /* InputHandler.m */,
+				EF15B6CB26977677005E714D /* ScoreKeeper.h */,
+				EF15B6CC26977677005E714D /* ScoreKeeper.m */,
+				EF15B6C526966467005E714D /* AdditionQuestion.h */,
+				EF15B6C626966467005E714D /* AdditionQuestion.m */,
+			);
+			path = Lab3;
+			sourceTree = "<group>";
+		};
+		EF4CD1AD269786CC00F1D26D /* Lab4 */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CD1B32697871E00F1D26D /* main.m */,
+				EF4CD1B82697877B00F1D26D /* InputHandler.h */,
+				EF4CD1B92697878100F1D26D /* InputHandler.m */,
+				EF4CD1BB2697878700F1D26D /* ScoreKeeper.h */,
+				EF4CD1BC2697878700F1D26D /* ScoreKeeper.m */,
+				EF4CD1BE269798D400F1D26D /* QuestionManager.h */,
+				EF4CD1BF269798D400F1D26D /* QuestionManager.m */,
+				EF4CD1CD2697BE7900F1D26D /* QuestionFactory.h */,
+				EF4CD1CE2697BE7900F1D26D /* QuestionFactory.m */,
+				EF4CD1B52697876100F1D26D /* Question.h */,
+				EF4CD1B62697877600F1D26D /* Question.m */,
+				EF4CD1C12697AFFF00F1D26D /* AdditionQuestion.h */,
+				EF4CD1C22697AFFF00F1D26D /* AdditionQuestion.m */,
+				EF4CD1C42697BD6C00F1D26D /* SubtractionQuestion.h */,
+				EF4CD1C52697BD6C00F1D26D /* SubtractionQuestion.m */,
+				EF4CD1C72697BD7500F1D26D /* MultiplicationQuestion.h */,
+				EF4CD1C82697BD7500F1D26D /* MultiplicationQuestion.m */,
+				EF4CD1CA2697BD7D00F1D26D /* DivisionQuestion.h */,
+				EF4CD1CB2697BD7D00F1D26D /* DivisionQuestion.m */,
+			);
+			path = Lab4;
+			sourceTree = "<group>";
+		};
 		EF81815B26936A420083C951 = {
 			isa = PBXGroup;
 			children = (
 				EF81816626936A420083C951 /* ObjectiveC */,
 				EF81817326936A630083C951 /* Lab1 */,
 				EF8181812693D48C0083C951 /* Lab2 */,
+				EF15B6B4269660B7005E714D /* Lab3 */,
+				EF4CD1AD269786CC00F1D26D /* Lab4 */,
 				EF81816526936A420083C951 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +214,8 @@
 				EF81816426936A420083C951 /* ObjectiveC */,
 				EF81817226936A630083C951 /* Lab1 */,
 				EF8181802693D48C0083C951 /* Lab2 */,
+				EF15B6B3269660B7005E714D /* Lab3 */,
+				EF4CD1AC269786CC00F1D26D /* Lab4 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +251,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF15B6B2269660B7005E714D /* Lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF15B6B9269660B7005E714D /* Build configuration list for PBXNativeTarget "Lab3" */;
+			buildPhases = (
+				EF15B6AF269660B7005E714D /* Sources */,
+				EF15B6B0269660B7005E714D /* Frameworks */,
+				EF15B6B1269660B7005E714D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab3;
+			productName = Lab3;
+			productReference = EF15B6B3269660B7005E714D /* Lab3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF4CD1AB269786CC00F1D26D /* Lab4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4CD1B0269786CC00F1D26D /* Build configuration list for PBXNativeTarget "Lab4" */;
+			buildPhases = (
+				EF4CD1A8269786CC00F1D26D /* Sources */,
+				EF4CD1A9269786CC00F1D26D /* Frameworks */,
+				EF4CD1AA269786CC00F1D26D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab4;
+			productName = Lab4;
+			productReference = EF4CD1AC269786CC00F1D26D /* Lab4 */;
+			productType = "com.apple.product-type.tool";
+		};
 		EF81816326936A420083C951 /* ObjectiveC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF81816B26936A420083C951 /* Build configuration list for PBXNativeTarget "ObjectiveC" */;
@@ -192,6 +344,12 @@
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					EF15B6B2269660B7005E714D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF4CD1AB269786CC00F1D26D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					EF81816326936A420083C951 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -219,11 +377,41 @@
 				EF81816326936A420083C951 /* ObjectiveC */,
 				EF81817126936A630083C951 /* Lab1 */,
 				EF81817F2693D48C0083C951 /* Lab2 */,
+				EF15B6B2269660B7005E714D /* Lab3 */,
+				EF4CD1AB269786CC00F1D26D /* Lab4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF15B6AF269660B7005E714D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF15B6CD26977677005E714D /* ScoreKeeper.m in Sources */,
+				EF15B6CA269774C2005E714D /* InputHandler.m in Sources */,
+				EF15B6D1269785D6005E714D /* main.m in Sources */,
+				EF15B6C726966467005E714D /* AdditionQuestion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4CD1A8269786CC00F1D26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4CD1C0269798D400F1D26D /* QuestionManager.m in Sources */,
+				EF4CD1C92697BD7500F1D26D /* MultiplicationQuestion.m in Sources */,
+				EF4CD1BD2697878700F1D26D /* ScoreKeeper.m in Sources */,
+				EF4CD1C62697BD6C00F1D26D /* SubtractionQuestion.m in Sources */,
+				EF4CD1B42697871E00F1D26D /* main.m in Sources */,
+				EF4CD1C32697AFFF00F1D26D /* AdditionQuestion.m in Sources */,
+				EF4CD1CC2697BD7D00F1D26D /* DivisionQuestion.m in Sources */,
+				EF4CD1BA2697878100F1D26D /* InputHandler.m in Sources */,
+				EF4CD1CF2697BE7900F1D26D /* QuestionFactory.m in Sources */,
+				EF4CD1B72697877600F1D26D /* Question.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF81816026936A420083C951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +441,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EF15B6B7269660B7005E714D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF15B6B8269660B7005E714D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4CD1B1269786CC00F1D26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4CD1B2269786CC00F1D26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EF81816926936A420083C951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -427,6 +655,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF15B6B9269660B7005E714D /* Build configuration list for PBXNativeTarget "Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF15B6B7269660B7005E714D /* Debug */,
+				EF15B6B8269660B7005E714D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4CD1B0269786CC00F1D26D /* Build configuration list for PBXNativeTarget "Lab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4CD1B1269786CC00F1D26D /* Debug */,
+				EF4CD1B2269786CC00F1D26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF81815F26936A420083C951 /* Build configuration list for PBXProject "ObjectiveC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
