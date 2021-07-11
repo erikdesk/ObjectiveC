@@ -5,7 +5,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Dice : NSObject
 
 @property (nonatomic) NSInteger currentValue;
+@property (nonatomic) BOOL isHeld;
 
+- (instancetype)init;
 - (void) randomize;
 
 @end

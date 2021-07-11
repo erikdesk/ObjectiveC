@@ -2,6 +2,15 @@
 
 @implementation Dice
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _isHeld = NO;
+    }
+    return self;
+}
+
 - (void) randomize {
     const int min = 1;
     const int max = 6;
