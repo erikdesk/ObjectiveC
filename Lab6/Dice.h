@@ -6,7 +6,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) NSInteger currentValue;
 
-- (instancetype)init;
+- (void) randomize;
 
 @end
 
