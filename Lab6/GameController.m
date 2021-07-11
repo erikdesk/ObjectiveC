@@ -34,11 +34,7 @@
 }
 
 - (void) holdDice: (NSInteger)indexOfDice {
-    if ([[_dices objectAtIndex:indexOfDice] isHeld]) {
-        NSLog(@"Dice is already held.");
-    } else {
-        [[_dices objectAtIndex:indexOfDice] setIsHeld:YES];
-    }
+    [[_dices objectAtIndex:indexOfDice] setIsHeld:![[_dices objectAtIndex:indexOfDice] isHeld]];
 }
 
 @end
