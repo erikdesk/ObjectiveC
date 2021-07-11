@@ -37,4 +37,10 @@
     [[_dices objectAtIndex:indexOfDice] setIsHeld:![[_dices objectAtIndex:indexOfDice] isHeld]];
 }
 
+- (void) resetDices {
+    for (id dice in _dices) {
+        [dice setIsHeld:NO];
+    }
+}
+
 @end

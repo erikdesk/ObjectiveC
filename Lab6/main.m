@@ -18,6 +18,8 @@ int main(int argc, const char * argv[]) {
         [gameController showDices];
         [gameController holdDice:3];
         [gameController showDices];
+        [gameController resetDices];
+        [gameController showDices];
         
         while (YES) {
             NSString *inputString = [inputCollector inputForPrompt:menuString];

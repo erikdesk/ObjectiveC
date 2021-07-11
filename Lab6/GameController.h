@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) randomizeUnheldDices;
 - (void) showDices;
 - (void) holdDice: (NSInteger)indexOfDice;
+- (void) resetDices;
 
 @end
 
