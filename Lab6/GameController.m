@@ -7,6 +7,7 @@
     self = [super init];
     if (self) {
         _dices = @[[Dice new], [Dice new], [Dice new], [Dice new], [Dice new]];
+        _remainingRollCount = 5;
     }
     return self;
 }
@@ -17,6 +18,7 @@
             [dice randomize];
         }
     }
+    _remainingRollCount = _remainingRollCount - 1;
 }
 
 - (void) showState {
@@ -32,7 +34,7 @@
             score = score + [dice currentValue];
         }
     }
-    NSLog(@"%@ Score: %ld", currentValuesString, score);
+    NSLog(@"%@ - Score: %ld - Rolls Left: %ld", currentValuesString, score, _remainingRollCount);
 }
 
 - (void) holdDice: (NSInteger)indexOfDice {
@@ -43,6 +45,17 @@
     for (id dice in _dices) {
         [dice setIsHeld:NO];
     }
+}
+
+- (NSInteger) countDicesHeld {
+    NSInteger heldCount = 0;
+    for (id dice in _dices) {
+        if ([dice isHeld]) {
+            heldCount = heldCount + 1;
+        }
+    }
+    
+    return heldCount;
 }
 
 @end
