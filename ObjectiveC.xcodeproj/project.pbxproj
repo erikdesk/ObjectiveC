@@ -26,6 +26,11 @@
 		EF81817B269379CC0083C951 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81817A269379CC0083C951 /* Person.m */; };
 		EF8181832693D48C0083C951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8181822693D48C0083C951 /* main.m */; };
 		EF8181892693D5200083C951 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8181882693D5200083C951 /* Box.m */; };
+		EF89E7B7269A36BF006496E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7B6269A36BF006496E0 /* main.m */; };
+		EF89E7BD269A37E5006496E0 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7BC269A37E5006496E0 /* InputCollector.m */; };
+		EF89E7C0269A3F67006496E0 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7BF269A3F67006496E0 /* Contact.m */; };
+		EF89E7C3269A3F97006496E0 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7C2269A3F97006496E0 /* ContactList.m */; };
+		EF89E7CB269B9292006496E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7CA269B9292006496E0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +71,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF81817E2693D48C0083C951 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF89E7B2269A36BF006496E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF89E7C6269B9292006496E0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -115,6 +138,16 @@
 		EF8181822693D48C0083C951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF8181872693D5200083C951 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
 		EF8181882693D5200083C951 /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		EF89E7B4269A36BF006496E0 /* Lab5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab5; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89E7B6269A36BF006496E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF89E7BB269A37E5006496E0 /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		EF89E7BC269A37E5006496E0 /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		EF89E7BE269A3F67006496E0 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		EF89E7BF269A3F67006496E0 /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		EF89E7C1269A3F97006496E0 /* ContactList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		EF89E7C2269A3F97006496E0 /* ContactList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		EF89E7C8269B9292006496E0 /* Lab6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab6; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89E7CA269B9292006496E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +180,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF81817D2693D48C0083C951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89E7B1269A36BF006496E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89E7C5269B9292006496E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,6 +251,8 @@
 				EF8181812693D48C0083C951 /* Lab2 */,
 				EF15B6B4269660B7005E714D /* Lab3 */,
 				EF4CD1AD269786CC00F1D26D /* Lab4 */,
+				EF89E7B5269A36BF006496E0 /* Lab5 */,
+				EF89E7C9269B9292006496E0 /* Lab6 */,
 				EF81816526936A420083C951 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +265,8 @@
 				EF8181802693D48C0083C951 /* Lab2 */,
 				EF15B6B3269660B7005E714D /* Lab3 */,
 				EF4CD1AC269786CC00F1D26D /* Lab4 */,
+				EF89E7B4269A36BF006496E0 /* Lab5 */,
+				EF89E7C8269B9292006496E0 /* Lab6 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +297,28 @@
 				EF8181882693D5200083C951 /* Box.m */,
 			);
 			path = Lab2;
+			sourceTree = "<group>";
+		};
+		EF89E7B5269A36BF006496E0 /* Lab5 */ = {
+			isa = PBXGroup;
+			children = (
+				EF89E7B6269A36BF006496E0 /* main.m */,
+				EF89E7BE269A3F67006496E0 /* Contact.h */,
+				EF89E7BF269A3F67006496E0 /* Contact.m */,
+				EF89E7C1269A3F97006496E0 /* ContactList.h */,
+				EF89E7C2269A3F97006496E0 /* ContactList.m */,
+				EF89E7BB269A37E5006496E0 /* InputCollector.h */,
+				EF89E7BC269A37E5006496E0 /* InputCollector.m */,
+			);
+			path = Lab5;
+			sourceTree = "<group>";
+		};
+		EF89E7C9269B9292006496E0 /* Lab6 */ = {
+			isa = PBXGroup;
+			children = (
+				EF89E7CA269B9292006496E0 /* main.m */,
+			);
+			path = Lab6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +409,40 @@
 			productReference = EF8181802693D48C0083C951 /* Lab2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF89E7B3269A36BF006496E0 /* Lab5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF89E7BA269A36BF006496E0 /* Build configuration list for PBXNativeTarget "Lab5" */;
+			buildPhases = (
+				EF89E7B0269A36BF006496E0 /* Sources */,
+				EF89E7B1269A36BF006496E0 /* Frameworks */,
+				EF89E7B2269A36BF006496E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab5;
+			productName = Lab5;
+			productReference = EF89E7B4269A36BF006496E0 /* Lab5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF89E7C7269B9292006496E0 /* Lab6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF89E7CC269B9292006496E0 /* Build configuration list for PBXNativeTarget "Lab6" */;
+			buildPhases = (
+				EF89E7C4269B9292006496E0 /* Sources */,
+				EF89E7C5269B9292006496E0 /* Frameworks */,
+				EF89E7C6269B9292006496E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab6;
+			productName = Lab6;
+			productReference = EF89E7C8269B9292006496E0 /* Lab6 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -359,6 +466,12 @@
 					EF81817F2693D48C0083C951 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					EF89E7B3269A36BF006496E0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF89E7C7269B9292006496E0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = EF81815F26936A420083C951 /* Build configuration list for PBXProject "ObjectiveC" */;
@@ -379,6 +492,8 @@
 				EF81817F2693D48C0083C951 /* Lab2 */,
 				EF15B6B2269660B7005E714D /* Lab3 */,
 				EF4CD1AB269786CC00F1D26D /* Lab4 */,
+				EF89E7B3269A36BF006496E0 /* Lab5 */,
+				EF89E7C7269B9292006496E0 /* Lab6 */,
 			);
 		};
 /* End PBXProject section */
@@ -435,6 +550,25 @@
 			files = (
 				EF8181832693D48C0083C951 /* main.m in Sources */,
 				EF8181892693D5200083C951 /* Box.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89E7B0269A36BF006496E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89E7C3269A3F97006496E0 /* ContactList.m in Sources */,
+				EF89E7BD269A37E5006496E0 /* InputCollector.m in Sources */,
+				EF89E7C0269A3F67006496E0 /* Contact.m in Sources */,
+				EF89E7B7269A36BF006496E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89E7C4269B9292006496E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89E7CB269B9292006496E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +786,46 @@
 			};
 			name = Release;
 		};
+		EF89E7B8269A36BF006496E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF89E7B9269A36BF006496E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF89E7CD269B9292006496E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF89E7CE269B9292006496E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -705,6 +879,24 @@
 			buildConfigurations = (
 				EF8181852693D48C0083C951 /* Debug */,
 				EF8181862693D48C0083C951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF89E7BA269A36BF006496E0 /* Build configuration list for PBXNativeTarget "Lab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89E7B8269A36BF006496E0 /* Debug */,
+				EF89E7B9269A36BF006496E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF89E7CC269B9292006496E0 /* Build configuration list for PBXNativeTarget "Lab6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89E7CD269B9292006496E0 /* Debug */,
+				EF89E7CE269B9292006496E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
