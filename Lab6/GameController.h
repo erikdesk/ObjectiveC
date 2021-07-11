@@ -9,7 +9,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init;
 - (void) randomizeUnheldDices;
-- (void) showDices;
+- (void) showState;
 - (void) holdDice: (NSInteger)indexOfDice;
 - (void) resetDices;
 

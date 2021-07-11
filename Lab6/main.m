@@ -15,17 +15,17 @@ int main(int argc, const char * argv[]) {
                                 @"quit - Exit the game.\n"];
         
         [gameController randomizeUnheldDices];
-        [gameController showDices];
+        [gameController showState];
         [gameController holdDice:3];
-        [gameController showDices];
+        [gameController showState];
         [gameController resetDices];
-        [gameController showDices];
+        [gameController showState];
         
         while (YES) {
             NSString *inputString = [inputCollector inputForPrompt:menuString];
             if ([inputString isEqual: @"roll"]) {
                 [gameController randomizeUnheldDices];
-                [gameController showDices];
+                [gameController showState];
                 continue;
             }
             if ([inputString isEqual: @"quit"]) {

@@ -19,18 +19,20 @@
     }
 }
 
-- (void) showDices {
+- (void) showState {
     NSArray *diceCharacters = @[@"", @"⚀", @"⚁", @"⚂", @"⚃", @"⚄", @"⚅"];
     
     NSString *currentValuesString = @"";
+    NSInteger score = 0;
     for (id dice in _dices) {
         if (![dice isHeld]) {
             currentValuesString = [NSString stringWithFormat:@"%@ %@  ", currentValuesString, [diceCharacters objectAtIndex: (long) [dice currentValue]]];
         } else {
             currentValuesString = [NSString stringWithFormat:@"%@[%@] ", currentValuesString, [diceCharacters objectAtIndex: (long) [dice currentValue]]];
+            score = score + [dice currentValue];
         }
     }
-    NSLog(@"%@", currentValuesString);
+    NSLog(@"%@ Score: %ld", currentValuesString, score);
 }
 
 - (void) holdDice: (NSInteger)indexOfDice {
