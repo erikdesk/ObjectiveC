@@ -31,6 +31,7 @@
 		EF89E7C0269A3F67006496E0 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7BF269A3F67006496E0 /* Contact.m */; };
 		EF89E7C3269A3F97006496E0 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7C2269A3F97006496E0 /* ContactList.m */; };
 		EF89E7CB269B9292006496E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7CA269B9292006496E0 /* main.m */; };
+		EF89E7D1269B9596006496E0 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7D0269B9596006496E0 /* Dice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,6 +149,8 @@
 		EF89E7C2269A3F97006496E0 /* ContactList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 		EF89E7C8269B9292006496E0 /* Lab6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab6; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF89E7CA269B9292006496E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF89E7CF269B9596006496E0 /* Dice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		EF89E7D0269B9596006496E0 /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +320,8 @@
 			isa = PBXGroup;
 			children = (
 				EF89E7CA269B9292006496E0 /* main.m */,
+				EF89E7CF269B9596006496E0 /* Dice.h */,
+				EF89E7D0269B9596006496E0 /* Dice.m */,
 			);
 			path = Lab6;
 			sourceTree = "<group>";
@@ -568,6 +573,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF89E7D1269B9596006496E0 /* Dice.m in Sources */,
 				EF89E7CB269B9292006496E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
