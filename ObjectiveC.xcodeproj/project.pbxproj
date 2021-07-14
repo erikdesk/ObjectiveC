@@ -11,6 +11,28 @@
 		EF15B6CA269774C2005E714D /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6C9269774C2005E714D /* InputHandler.m */; };
 		EF15B6CD26977677005E714D /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6CC26977677005E714D /* ScoreKeeper.m */; };
 		EF15B6D1269785D6005E714D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15B6D0269785D6005E714D /* main.m */; };
+		EF2889E5269CADD000252BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2889E4269CADD000252BFA /* main.m */; };
+		EF2889EB269CADFC00252BFA /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2889EA269CADFC00252BFA /* Greeter.m */; };
+		EF2889EE269E0F1E00252BFA /* FriendlyGreetingDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2889ED269E0F1E00252BFA /* FriendlyGreetingDecider.m */; };
+		EF2889F1269E181800252BFA /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2889F0269E181800252BFA /* FoodTruck.m */; };
+		EF2889F4269E1E2F00252BFA /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2889F3269E1E2F00252BFA /* Cook.m */; };
+		EF2889FC269E2E6700252BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2889FB269E2E6700252BFA /* main.m */; };
+		EF288A07269E2E7900252BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A06269E2E7900252BFA /* main.m */; };
+		EF288A12269E2E8200252BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A11269E2E8200252BFA /* main.m */; };
+		EF288A18269E2E9E00252BFA /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A17269E2E9E00252BFA /* Kitchen.m */; };
+		EF288A1B269E369700252BFA /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A1A269E369700252BFA /* Pizza.m */; };
+		EF288A21269E431900252BFA /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A1D269E431900252BFA /* Kitchen.m */; };
+		EF288A22269E431900252BFA /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A1F269E431900252BFA /* Pizza.m */; };
+		EF288A25269E47E800252BFA /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A24269E47E800252BFA /* Manager.m */; };
+		EF288A28269E496A00252BFA /* FriendlyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A27269E496A00252BFA /* FriendlyManager.m */; };
+		EF288A32269E4B9900252BFA /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A2C269E4B9800252BFA /* Manager.m */; };
+		EF288A33269E4B9900252BFA /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A2E269E4B9800252BFA /* Kitchen.m */; };
+		EF288A34269E4B9900252BFA /* FriendlyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A30269E4B9800252BFA /* FriendlyManager.m */; };
+		EF288A35269E4B9900252BFA /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A31269E4B9800252BFA /* Pizza.m */; };
+		EF288A38269E519700252BFA /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A37269E519700252BFA /* DeliveryService.m */; };
+		EF288A3B269E51A300252BFA /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A3A269E51A300252BFA /* DeliveryCar.m */; };
+		EF288A43269E595400252BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A42269E595400252BFA /* main.m */; };
+		EF288A49269E5B9400252BFA /* NSString+stringByPigLatinization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF288A48269E5B9400252BFA /* NSString+stringByPigLatinization.m */; };
 		EF4CD1B42697871E00F1D26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1B32697871E00F1D26D /* main.m */; };
 		EF4CD1B72697877600F1D26D /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1B62697877600F1D26D /* Question.m */; };
 		EF4CD1BA2697878100F1D26D /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CD1B92697878100F1D26D /* InputHandler.m */; };
@@ -38,6 +60,51 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF15B6B1269660B7005E714D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF2889E0269CADD000252BFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF2889F7269E2E6700252BFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF288A02269E2E7900252BFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF288A0D269E2E8200252BFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF288A3E269E595400252BFA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -111,6 +178,52 @@
 		EF15B6CB26977677005E714D /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
 		EF15B6CC26977677005E714D /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
 		EF15B6D0269785D6005E714D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2889E2269CADD000252BFA /* Lab8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab8; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2889E4269CADD000252BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2889E9269CADFC00252BFA /* Greeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		EF2889EA269CADFC00252BFA /* Greeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		EF2889EC269E0F1E00252BFA /* FriendlyGreetingDecider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendlyGreetingDecider.h; sourceTree = "<group>"; };
+		EF2889ED269E0F1E00252BFA /* FriendlyGreetingDecider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendlyGreetingDecider.m; sourceTree = "<group>"; };
+		EF2889EF269E181800252BFA /* FoodTruck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		EF2889F0269E181800252BFA /* FoodTruck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		EF2889F2269E1E2F00252BFA /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		EF2889F3269E1E2F00252BFA /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		EF2889F9269E2E6700252BFA /* Lab9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab9; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2889FB269E2E6700252BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF288A04269E2E7900252BFA /* Lab10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab10; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF288A06269E2E7900252BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF288A0F269E2E8200252BFA /* Lab11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab11; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF288A11269E2E8200252BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF288A16269E2E9E00252BFA /* Kitchen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		EF288A17269E2E9E00252BFA /* Kitchen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		EF288A19269E369700252BFA /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		EF288A1A269E369700252BFA /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		EF288A1C269E37F600252BFA /* Lab9-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab9-Prefix.pch"; sourceTree = "<group>"; };
+		EF288A1D269E431900252BFA /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		EF288A1E269E431900252BFA /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		EF288A1F269E431900252BFA /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		EF288A20269E431900252BFA /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		EF288A23269E47E800252BFA /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		EF288A24269E47E800252BFA /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		EF288A26269E496A00252BFA /* FriendlyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendlyManager.h; sourceTree = "<group>"; };
+		EF288A27269E496A00252BFA /* FriendlyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendlyManager.m; sourceTree = "<group>"; };
+		EF288A29269E4B9800252BFA /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		EF288A2A269E4B9800252BFA /* Lab9-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lab9-Prefix.pch"; sourceTree = "<group>"; };
+		EF288A2B269E4B9800252BFA /* FriendlyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendlyManager.h; sourceTree = "<group>"; };
+		EF288A2C269E4B9800252BFA /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		EF288A2D269E4B9800252BFA /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		EF288A2E269E4B9800252BFA /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		EF288A2F269E4B9800252BFA /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		EF288A30269E4B9800252BFA /* FriendlyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendlyManager.m; sourceTree = "<group>"; };
+		EF288A31269E4B9800252BFA /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		EF288A36269E519700252BFA /* DeliveryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryService.h; sourceTree = "<group>"; };
+		EF288A37269E519700252BFA /* DeliveryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
+		EF288A39269E51A300252BFA /* DeliveryCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
+		EF288A3A269E51A300252BFA /* DeliveryCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
+		EF288A40269E595400252BFA /* Lab7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab7; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF288A42269E595400252BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF288A47269E5B9400252BFA /* NSString+stringByPigLatinization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+stringByPigLatinization.h"; sourceTree = "<group>"; };
+		EF288A48269E5B9400252BFA /* NSString+stringByPigLatinization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringByPigLatinization.m"; sourceTree = "<group>"; };
 		EF4CD1AC269786CC00F1D26D /* Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab4; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4CD1B32697871E00F1D26D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF4CD1B52697876100F1D26D /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
@@ -161,6 +274,41 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF15B6B0269660B7005E714D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2889DF269CADD000252BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2889F6269E2E6700252BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF288A01269E2E7900252BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF288A0C269E2E8200252BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF288A3D269E595400252BFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +374,82 @@
 			path = Lab3;
 			sourceTree = "<group>";
 		};
+		EF2889E3269CADD000252BFA /* Lab8 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2889E4269CADD000252BFA /* main.m */,
+				EF2889E9269CADFC00252BFA /* Greeter.h */,
+				EF2889EA269CADFC00252BFA /* Greeter.m */,
+				EF2889EC269E0F1E00252BFA /* FriendlyGreetingDecider.h */,
+				EF2889ED269E0F1E00252BFA /* FriendlyGreetingDecider.m */,
+				EF2889EF269E181800252BFA /* FoodTruck.h */,
+				EF2889F0269E181800252BFA /* FoodTruck.m */,
+				EF2889F2269E1E2F00252BFA /* Cook.h */,
+				EF2889F3269E1E2F00252BFA /* Cook.m */,
+			);
+			path = Lab8;
+			sourceTree = "<group>";
+		};
+		EF2889FA269E2E6700252BFA /* Lab9 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2889FB269E2E6700252BFA /* main.m */,
+				EF288A16269E2E9E00252BFA /* Kitchen.h */,
+				EF288A17269E2E9E00252BFA /* Kitchen.m */,
+				EF288A19269E369700252BFA /* Pizza.h */,
+				EF288A1A269E369700252BFA /* Pizza.m */,
+				EF288A1C269E37F600252BFA /* Lab9-Prefix.pch */,
+			);
+			path = Lab9;
+			sourceTree = "<group>";
+		};
+		EF288A05269E2E7900252BFA /* Lab10 */ = {
+			isa = PBXGroup;
+			children = (
+				EF288A06269E2E7900252BFA /* main.m */,
+				EF288A20269E431900252BFA /* Kitchen.h */,
+				EF288A1D269E431900252BFA /* Kitchen.m */,
+				EF288A1E269E431900252BFA /* Pizza.h */,
+				EF288A1F269E431900252BFA /* Pizza.m */,
+				EF288A23269E47E800252BFA /* Manager.h */,
+				EF288A24269E47E800252BFA /* Manager.m */,
+				EF288A26269E496A00252BFA /* FriendlyManager.h */,
+				EF288A27269E496A00252BFA /* FriendlyManager.m */,
+			);
+			path = Lab10;
+			sourceTree = "<group>";
+		};
+		EF288A10269E2E8200252BFA /* Lab11 */ = {
+			isa = PBXGroup;
+			children = (
+				EF288A11269E2E8200252BFA /* main.m */,
+				EF288A2A269E4B9800252BFA /* Lab9-Prefix.pch */,
+				EF288A2D269E4B9800252BFA /* Pizza.h */,
+				EF288A31269E4B9800252BFA /* Pizza.m */,
+				EF288A29269E4B9800252BFA /* Kitchen.h */,
+				EF288A2E269E4B9800252BFA /* Kitchen.m */,
+				EF288A2F269E4B9800252BFA /* Manager.h */,
+				EF288A2C269E4B9800252BFA /* Manager.m */,
+				EF288A2B269E4B9800252BFA /* FriendlyManager.h */,
+				EF288A30269E4B9800252BFA /* FriendlyManager.m */,
+				EF288A36269E519700252BFA /* DeliveryService.h */,
+				EF288A37269E519700252BFA /* DeliveryService.m */,
+				EF288A39269E51A300252BFA /* DeliveryCar.h */,
+				EF288A3A269E51A300252BFA /* DeliveryCar.m */,
+			);
+			path = Lab11;
+			sourceTree = "<group>";
+		};
+		EF288A41269E595400252BFA /* Lab7 */ = {
+			isa = PBXGroup;
+			children = (
+				EF288A42269E595400252BFA /* main.m */,
+				EF288A47269E5B9400252BFA /* NSString+stringByPigLatinization.h */,
+				EF288A48269E5B9400252BFA /* NSString+stringByPigLatinization.m */,
+			);
+			path = Lab7;
+			sourceTree = "<group>";
+		};
 		EF4CD1AD269786CC00F1D26D /* Lab4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +486,11 @@
 				EF4CD1AD269786CC00F1D26D /* Lab4 */,
 				EF89E7B5269A36BF006496E0 /* Lab5 */,
 				EF89E7C9269B9292006496E0 /* Lab6 */,
+				EF288A41269E595400252BFA /* Lab7 */,
+				EF2889E3269CADD000252BFA /* Lab8 */,
+				EF2889FA269E2E6700252BFA /* Lab9 */,
+				EF288A05269E2E7900252BFA /* Lab10 */,
+				EF288A10269E2E8200252BFA /* Lab11 */,
 				EF81816526936A420083C951 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -276,6 +505,11 @@
 				EF4CD1AC269786CC00F1D26D /* Lab4 */,
 				EF89E7B4269A36BF006496E0 /* Lab5 */,
 				EF89E7C8269B9292006496E0 /* Lab6 */,
+				EF2889E2269CADD000252BFA /* Lab8 */,
+				EF2889F9269E2E6700252BFA /* Lab9 */,
+				EF288A04269E2E7900252BFA /* Lab10 */,
+				EF288A0F269E2E8200252BFA /* Lab11 */,
+				EF288A40269E595400252BFA /* Lab7 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,6 +588,91 @@
 			name = Lab3;
 			productName = Lab3;
 			productReference = EF15B6B3269660B7005E714D /* Lab3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF2889E1269CADD000252BFA /* Lab8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2889E8269CADD000252BFA /* Build configuration list for PBXNativeTarget "Lab8" */;
+			buildPhases = (
+				EF2889DE269CADD000252BFA /* Sources */,
+				EF2889DF269CADD000252BFA /* Frameworks */,
+				EF2889E0269CADD000252BFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab8;
+			productName = Lab8;
+			productReference = EF2889E2269CADD000252BFA /* Lab8 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF2889F8269E2E6700252BFA /* Lab9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2889FD269E2E6700252BFA /* Build configuration list for PBXNativeTarget "Lab9" */;
+			buildPhases = (
+				EF2889F5269E2E6700252BFA /* Sources */,
+				EF2889F6269E2E6700252BFA /* Frameworks */,
+				EF2889F7269E2E6700252BFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab9;
+			productName = Lab9;
+			productReference = EF2889F9269E2E6700252BFA /* Lab9 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF288A03269E2E7900252BFA /* Lab10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF288A08269E2E7900252BFA /* Build configuration list for PBXNativeTarget "Lab10" */;
+			buildPhases = (
+				EF288A00269E2E7900252BFA /* Sources */,
+				EF288A01269E2E7900252BFA /* Frameworks */,
+				EF288A02269E2E7900252BFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab10;
+			productName = Lab10;
+			productReference = EF288A04269E2E7900252BFA /* Lab10 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF288A0E269E2E8200252BFA /* Lab11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF288A13269E2E8200252BFA /* Build configuration list for PBXNativeTarget "Lab11" */;
+			buildPhases = (
+				EF288A0B269E2E8200252BFA /* Sources */,
+				EF288A0C269E2E8200252BFA /* Frameworks */,
+				EF288A0D269E2E8200252BFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab11;
+			productName = Lab11;
+			productReference = EF288A0F269E2E8200252BFA /* Lab11 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF288A3F269E595400252BFA /* Lab7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF288A44269E595400252BFA /* Build configuration list for PBXNativeTarget "Lab7" */;
+			buildPhases = (
+				EF288A3C269E595400252BFA /* Sources */,
+				EF288A3D269E595400252BFA /* Frameworks */,
+				EF288A3E269E595400252BFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab7;
+			productName = Lab7;
+			productReference = EF288A40269E595400252BFA /* Lab7 */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF4CD1AB269786CC00F1D26D /* Lab4 */ = {
@@ -469,6 +788,21 @@
 					EF15B6B2269660B7005E714D = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					EF2889E1269CADD000252BFA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF2889F8269E2E6700252BFA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF288A03269E2E7900252BFA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF288A0E269E2E8200252BFA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF288A3F269E595400252BFA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					EF4CD1AB269786CC00F1D26D = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -509,6 +843,11 @@
 				EF4CD1AB269786CC00F1D26D /* Lab4 */,
 				EF89E7B3269A36BF006496E0 /* Lab5 */,
 				EF89E7C7269B9292006496E0 /* Lab6 */,
+				EF2889E1269CADD000252BFA /* Lab8 */,
+				EF2889F8269E2E6700252BFA /* Lab9 */,
+				EF288A03269E2E7900252BFA /* Lab10 */,
+				EF288A0E269E2E8200252BFA /* Lab11 */,
+				EF288A3F269E595400252BFA /* Lab7 */,
 			);
 		};
 /* End PBXProject section */
@@ -522,6 +861,63 @@
 				EF15B6CA269774C2005E714D /* InputHandler.m in Sources */,
 				EF15B6D1269785D6005E714D /* main.m in Sources */,
 				EF15B6C726966467005E714D /* AdditionQuestion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2889DE269CADD000252BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2889F4269E1E2F00252BFA /* Cook.m in Sources */,
+				EF2889EB269CADFC00252BFA /* Greeter.m in Sources */,
+				EF2889EE269E0F1E00252BFA /* FriendlyGreetingDecider.m in Sources */,
+				EF2889E5269CADD000252BFA /* main.m in Sources */,
+				EF2889F1269E181800252BFA /* FoodTruck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2889F5269E2E6700252BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF288A1B269E369700252BFA /* Pizza.m in Sources */,
+				EF288A18269E2E9E00252BFA /* Kitchen.m in Sources */,
+				EF2889FC269E2E6700252BFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF288A00269E2E7900252BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF288A22269E431900252BFA /* Pizza.m in Sources */,
+				EF288A28269E496A00252BFA /* FriendlyManager.m in Sources */,
+				EF288A21269E431900252BFA /* Kitchen.m in Sources */,
+				EF288A07269E2E7900252BFA /* main.m in Sources */,
+				EF288A25269E47E800252BFA /* Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF288A0B269E2E8200252BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF288A3B269E51A300252BFA /* DeliveryCar.m in Sources */,
+				EF288A34269E4B9900252BFA /* FriendlyManager.m in Sources */,
+				EF288A12269E2E8200252BFA /* main.m in Sources */,
+				EF288A32269E4B9900252BFA /* Manager.m in Sources */,
+				EF288A35269E4B9900252BFA /* Pizza.m in Sources */,
+				EF288A33269E4B9900252BFA /* Kitchen.m in Sources */,
+				EF288A38269E519700252BFA /* DeliveryService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF288A3C269E595400252BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF288A49269E5B9400252BFA /* NSString+stringByPigLatinization.m in Sources */,
+				EF288A43269E595400252BFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +1009,106 @@
 			};
 			name = Release;
 		};
+		EF2889E6269CADD000252BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2889E7269CADD000252BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF2889FE269E2E6700252BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2889FF269E2E6700252BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF288A09269E2E7900252BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF288A0A269E2E7900252BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF288A14269E2E8200252BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF288A15269E2E8200252BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF288A45269E595400252BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF288A46269E595400252BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EF4CD1B1269786CC00F1D26D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -674,6 +1170,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Lab9/Lab9-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -731,6 +1229,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Lab9/Lab9-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -852,6 +1352,51 @@
 			buildConfigurations = (
 				EF15B6B7269660B7005E714D /* Debug */,
 				EF15B6B8269660B7005E714D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2889E8269CADD000252BFA /* Build configuration list for PBXNativeTarget "Lab8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2889E6269CADD000252BFA /* Debug */,
+				EF2889E7269CADD000252BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2889FD269E2E6700252BFA /* Build configuration list for PBXNativeTarget "Lab9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2889FE269E2E6700252BFA /* Debug */,
+				EF2889FF269E2E6700252BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF288A08269E2E7900252BFA /* Build configuration list for PBXNativeTarget "Lab10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF288A09269E2E7900252BFA /* Debug */,
+				EF288A0A269E2E7900252BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF288A13269E2E8200252BFA /* Build configuration list for PBXNativeTarget "Lab11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF288A14269E2E8200252BFA /* Debug */,
+				EF288A15269E2E8200252BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF288A44269E595400252BFA /* Build configuration list for PBXNativeTarget "Lab7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF288A45269E595400252BFA /* Debug */,
+				EF288A46269E595400252BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
