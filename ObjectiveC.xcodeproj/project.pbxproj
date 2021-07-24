@@ -56,6 +56,12 @@
 		EF89E7D1269B9596006496E0 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7D0269B9596006496E0 /* Dice.m */; };
 		EF89E7D4269B9BA5006496E0 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7D3269B9BA5006496E0 /* InputCollector.m */; };
 		EF89E7D7269BA04E006496E0 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89E7D6269BA04E006496E0 /* GameController.m */; };
+		EF95E12B26AC888800F27D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E12A26AC888800F27D30 /* main.m */; };
+		EF95E13126ACA92300F27D30 /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E13026ACA92300F27D30 /* PaymentGateway.m */; };
+		EF95E13426ACAAB400F27D30 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E13326ACAAB400F27D30 /* PaypalPaymentService.m */; };
+		EF95E13726ACAABF00F27D30 /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E13626ACAABF00F27D30 /* StripePaymentService.m */; };
+		EF95E13A26ACAAD200F27D30 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E13926ACAAD200F27D30 /* AmazonPaymentService.m */; };
+		EF95E13D26ACAF7600F27D30 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E13C26ACAF7600F27D30 /* ApplePaymentService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +173,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EF95E12626AC888800F27D30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -270,6 +285,18 @@
 		EF89E7D3269B9BA5006496E0 /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 		EF89E7D5269BA04E006496E0 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		EF89E7D6269BA04E006496E0 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		EF95E12826AC888800F27D30 /* Lab12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab12; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95E12A26AC888800F27D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF95E12F26ACA92300F27D30 /* PaymentGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		EF95E13026ACA92300F27D30 /* PaymentGateway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		EF95E13226ACAAB400F27D30 /* PaypalPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		EF95E13326ACAAB400F27D30 /* PaypalPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		EF95E13526ACAABF00F27D30 /* StripePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		EF95E13626ACAABF00F27D30 /* StripePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+		EF95E13826ACAAD200F27D30 /* AmazonPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		EF95E13926ACAAD200F27D30 /* AmazonPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		EF95E13B26ACAF7600F27D30 /* ApplePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		EF95E13C26ACAF7600F27D30 /* ApplePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +378,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF89E7C5269B9292006496E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95E12526AC888800F27D30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,6 +525,7 @@
 				EF2889FA269E2E6700252BFA /* Lab9 */,
 				EF288A05269E2E7900252BFA /* Lab10 */,
 				EF288A10269E2E8200252BFA /* Lab11 */,
+				EF95E12926AC888800F27D30 /* Lab12 */,
 				EF81816526936A420083C951 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -510,6 +545,7 @@
 				EF288A04269E2E7900252BFA /* Lab10 */,
 				EF288A0F269E2E8200252BFA /* Lab11 */,
 				EF288A40269E595400252BFA /* Lab7 */,
+				EF95E12826AC888800F27D30 /* Lab12 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -568,6 +604,24 @@
 				EF89E7D6269BA04E006496E0 /* GameController.m */,
 			);
 			path = Lab6;
+			sourceTree = "<group>";
+		};
+		EF95E12926AC888800F27D30 /* Lab12 */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E12A26AC888800F27D30 /* main.m */,
+				EF95E12F26ACA92300F27D30 /* PaymentGateway.h */,
+				EF95E13026ACA92300F27D30 /* PaymentGateway.m */,
+				EF95E13226ACAAB400F27D30 /* PaypalPaymentService.h */,
+				EF95E13326ACAAB400F27D30 /* PaypalPaymentService.m */,
+				EF95E13526ACAABF00F27D30 /* StripePaymentService.h */,
+				EF95E13626ACAABF00F27D30 /* StripePaymentService.m */,
+				EF95E13826ACAAD200F27D30 /* AmazonPaymentService.h */,
+				EF95E13926ACAAD200F27D30 /* AmazonPaymentService.m */,
+				EF95E13B26ACAF7600F27D30 /* ApplePaymentService.h */,
+				EF95E13C26ACAF7600F27D30 /* ApplePaymentService.m */,
+			);
+			path = Lab12;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -777,6 +831,23 @@
 			productReference = EF89E7C8269B9292006496E0 /* Lab6 */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF95E12726AC888800F27D30 /* Lab12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95E12E26AC888800F27D30 /* Build configuration list for PBXNativeTarget "Lab12" */;
+			buildPhases = (
+				EF95E12426AC888800F27D30 /* Sources */,
+				EF95E12526AC888800F27D30 /* Frameworks */,
+				EF95E12626AC888800F27D30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab12;
+			productName = Lab12;
+			productReference = EF95E12826AC888800F27D30 /* Lab12 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -821,6 +892,9 @@
 					EF89E7C7269B9292006496E0 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					EF95E12726AC888800F27D30 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = EF81815F26936A420083C951 /* Build configuration list for PBXProject "ObjectiveC" */;
@@ -843,11 +917,12 @@
 				EF4CD1AB269786CC00F1D26D /* Lab4 */,
 				EF89E7B3269A36BF006496E0 /* Lab5 */,
 				EF89E7C7269B9292006496E0 /* Lab6 */,
+				EF288A3F269E595400252BFA /* Lab7 */,
 				EF2889E1269CADD000252BFA /* Lab8 */,
 				EF2889F8269E2E6700252BFA /* Lab9 */,
 				EF288A03269E2E7900252BFA /* Lab10 */,
 				EF288A0E269E2E8200252BFA /* Lab11 */,
-				EF288A3F269E595400252BFA /* Lab7 */,
+				EF95E12726AC888800F27D30 /* Lab12 */,
 			);
 		};
 /* End PBXProject section */
@@ -983,6 +1058,19 @@
 				EF89E7D7269BA04E006496E0 /* GameController.m in Sources */,
 				EF89E7D1269B9596006496E0 /* Dice.m in Sources */,
 				EF89E7CB269B9292006496E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95E12426AC888800F27D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF95E12B26AC888800F27D30 /* main.m in Sources */,
+				EF95E13A26ACAAD200F27D30 /* AmazonPaymentService.m in Sources */,
+				EF95E13126ACA92300F27D30 /* PaymentGateway.m in Sources */,
+				EF95E13D26ACAF7600F27D30 /* ApplePaymentService.m in Sources */,
+				EF95E13426ACAAB400F27D30 /* PaypalPaymentService.m in Sources */,
+				EF95E13726ACAABF00F27D30 /* StripePaymentService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1344,6 +1432,26 @@
 			};
 			name = Release;
 		};
+		EF95E12C26AC888800F27D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF95E12D26AC888800F27D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1460,6 +1568,15 @@
 			buildConfigurations = (
 				EF89E7CD269B9292006496E0 /* Debug */,
 				EF89E7CE269B9292006496E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95E12E26AC888800F27D30 /* Build configuration list for PBXNativeTarget "Lab12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95E12C26AC888800F27D30 /* Debug */,
+				EF95E12D26AC888800F27D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
